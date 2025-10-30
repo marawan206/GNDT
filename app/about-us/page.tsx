@@ -1,7 +1,20 @@
+import AboutHero from "@/components/aboutUs/hero";
+import WhoWeAre from "@/components/aboutUs/whoWeAre";
+import History from "@/components/aboutUs/history";
+import Team from "@/components/aboutUs/team";
+import Certificates from "@/components/landingPage/certificates";
+import Trustworthy from "@/components/landingPage/trustworthy";
+import IndustryLeaders from "@/components/landingPage/industryLeaders";
 export default function Page() {
   return (
-    <main className="mx-auto max-w-7xl px-4 py-10 text-[#181D27]">
-      <h1 className="text-2xl font-semibold">About Us</h1>
+    <main className="w-full">
+      <AboutHero />
+      <WhoWeAre />
+      <History />
+      <Certificates />
+      <Team />
+      <Trustworthy />
+      <IndustryLeaders />
     </main>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function IndustryLeaders() {
   return (
-    <section className="mx-auto bg-[#1D2020] px-[80px] py-[96px]">
+    <section className="mx-auto bg-[#1D2020] px-[80px] py-[96px] w-full">
       <div className="mx-auto max-w-6xl">
         <h2
           className="text-center font-bold text-[#FFFFFF]"
