@@ -1,7 +1,10 @@
+import PartnersHero from "@/components/partners/hero";
+import PartnersGrid from "@/components/partners/partners";
 export default function Page() {
   return (
-    <main className="mx-auto max-w-7xl px-4 py-10 text-[#181D27]">
-      <h1 className="text-2xl font-semibold">Partners</h1>
+    <main className="">
+      <PartnersHero />
+      <PartnersGrid />
     </main>
   );
 }

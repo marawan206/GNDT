@@ -1,20 +1,14 @@
 import React from "react";
+import Video from "@/components/video";
 
 export default function WhoWeAre() {
   return (
     <section className="mx-auto px-[80px] py-[96px]">
       <div className="mx-auto max-w-6xl">
-        <div className="overflow-hidden rounded-2xl">
-          <video
-            className="h-auto w-full"
-            controls
-            playsInline
-            poster="/Heading and supporting text.png"
-          >
-            <source src="/about-intro.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
+        <Video
+          src="/about-intro.mp4"
+          poster="/Heading and supporting text.png"
+        />
 
         <div className="mt-[32px] grid grid-cols-1 items-start gap-6 md:grid-cols-2">
           <h2 className="text-[40px] font-bold tracking-tight text-[#1D2020]">

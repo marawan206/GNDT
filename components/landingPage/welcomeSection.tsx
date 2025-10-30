@@ -1,4 +1,5 @@
 import React from "react";
+import Video from "@/components/video";
 
 export default function WelcomeSection() {
   return (
@@ -20,15 +21,7 @@ export default function WelcomeSection() {
         </div>
 
         <div className="mt-[48px] overflow-hidden rounded-2xl">
-          <video
-            className="h-auto w-full"
-            controls
-            playsInline
-            poster="/Heading and supporting text.png"
-          >
-            <source src="/intro.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          <Video src="/intro.mp4" poster="/Heading and supporting text.png" />
         </div>
       </div>
     </section>
